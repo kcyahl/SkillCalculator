@@ -8,6 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="newCharacter" Content="New Character" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+        <Button x:Name="loadCharacter" Content="Load Character" HorizontalAlignment="Center" Margin="119,341,121,267" VerticalAlignment="Center"/>
 
     </Grid>
 </Page>
