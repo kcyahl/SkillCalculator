@@ -8,6 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <RelativePanel HorizontalAlignment="Center" Height="179" Margin="0,85,0,0" VerticalAlignment="Top" Width="360">
+            <Button x:Name="NewCharacterButton" Content="New Character" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="116,110,-118.333,-110" Click="NewCharacterButton_click"/>
+            <Button x:Name="LoadCharacterButton" Content="Load Character" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="114,147,-114,-147" Click="LoadCharacterButton_click"/>
+        </RelativePanel>
+        <TextBlock x:Name="WelcomeTextBlock" Margin="52,120,59,0" TextWrapping="Wrap" Text="Welcome! Please choose to make a new character or load a previous one." VerticalAlignment="Top" HorizontalAlignment="Center"/>
     </Grid>
 </Page>

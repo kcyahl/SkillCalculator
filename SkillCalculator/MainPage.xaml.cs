@@ -26,5 +26,16 @@ namespace SkillCalculator
         {
             this.InitializeComponent();
         }
+
+        private void NewCharacterButton_click(object sender, RoutedEventArgs e)
+        {
+            //Navigate to create-a-character page
+            this.Frame.Navigate(typeof(CreateCharacter));
+        }
+
+        private void LoadCharacterButton_click(object sender, RoutedEventArgs e)
+        {
+            //open a page with a list of all chara's that the user can select
+        }
     }
 }
